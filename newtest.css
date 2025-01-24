@@ -1,0 +1,15 @@
+.parent {
+    width: 300px; /* Set a static width */
+    height: 200px; /* Optional: static height */
+    background-color: lightgray; /* For visualization */
+    overflow: hidden; /* Prevent parent from scrolling */
+  }
+  
+  .child {
+    width: 600px; /* Wider than the parent to enable horizontal scrolling */
+    height: 100%; /* Match the parent's height */
+    background-color: lightblue; /* For visualization */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  

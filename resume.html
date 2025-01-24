@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Kohn - Resume</title>
+    <style>
+        :root {
+            --primary-color: #1E88E5; /* Blue for accents */
+            --text-color: #333333; /* Dark gray for text */
+            --bg-color: #FFFFFF; /* White background */
+            --section-divider: #DDDDDD; /* Light gray divider */
+            --font-family: 'Arial', sans-serif; /* Professional font */
+        }
+
+        body {
+            font-family: var(--font-family);
+            color: var(--text-color);
+            background: var(--bg-color);
+            margin: 0;
+            padding: 10px;
+            line-height: 1.4;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        header p {
+            margin: 2px 0;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+            border-bottom: 1px solid var(--section-divider);
+            padding-bottom: 3px;
+        }
+
+        .content {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 3px;
+        }
+
+        .experience-item {
+            margin-bottom: 10px;
+        }
+
+        .experience-item h3 {
+            font-size: 1rem;
+            margin-bottom: 3px;
+        }
+
+        .column-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 45%;
+        }
+
+        @media print {
+            body {
+                padding: 5px;
+            }
+
+            a {
+                text-decoration: underline;
+                color: black;
+            }
+
+            .column-container {
+                flex-wrap: nowrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dylan Kohn</h1>
+        <p>Mobile: (925) 822 5916 | <a href="mailto:dylankohn1@gmail.com">dylankohn1@gmail.com</a></p>
+        <p class="contact-info">
+            <a href="https://linkedin.com/in/dylantkohn" target="_blank">linkedin.com/in/dylantkohn</a>
+        </p>
+    </header>
+
+    <div class="column-container">
+        <div class="column">
+            <section>
+                <h2 class="section-title">Summary</h2>
+                <div class="content">
+                    Computer programmer and software engineer with 10 years of programming experience, constantly learning and improving with a growth mindset. Currently a student at BYU-Idaho studying computer science with an emphasis on machine learning. Exploring a career path in machine learning and embedded systems. Passionate about creating efficient and user-friendly software solutions.
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Skills</h2>
+                <div class="content">
+                    <ul>
+                        <li><strong>Python,</strong> C#, R, HTML, CSS, <strong>JavaScript, SQL</strong></li>
+                        <li>Git collaboration & teamwork</li>
+                        <li>API integration & external sources</li>
+                        <li>Fluent in <strong>Spanish</strong></li>
+                        <li>Database design & management</li>
+                        <li>Full-stack application development</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Education</h2>
+                <div class="content">
+                    <p><strong>Bachelor of Science – Computer Science</strong></p>
+                    <p>Brigham Young University – Idaho</p>
+                    <p>2022 – 2026 (estimated) | Rexburg, Idaho</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title">Service Mission</h2>
+                <div class="content">
+                    <p><strong>Church of Jesus Christ of Latter-Day Saints</strong></p>
+                    <p>2022–2024 | Vancouver, Washington</p>
+                    <ul>
+                        <li>Learned Spanish to teach native speakers</li>
+                        <li>Taught English classes</li>
+                        <li>Shared religious principles</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="column">
+
+
+            <section>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="content">
+                    <div class="experience-item">
+                        <h3>Company Management Application</h3>
+                        <p><i>DeHaro Construction</i></p>
+                        <ul>
+                            <li>Full-stack app to track company assets</li>
+                            <li>Implemented data security through hashing and encryption</li>
+                            <li>Displayed data in one place for ease of access and dynamic manipulation</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>QuickBite Hackathon Webapp</h3>
+                        <p><i>BYU-Idaho Hackathon</i></p>
+                        <ul>
+                            <li>Front-end clean UI & back-end API call</li>
+                            <li>1st place for best UI design</li>
+                            <li>Worked in a team of three to produce app in 24 hours</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>IBC Technical WebApp</h3>
+                        <p><i>BYU-Idaho Data Science Society</i></p>
+                        <ul>
+                            <li>Back-end developer for data manipulation</li>
+                            <li>Automated data analysis using R</li>
+                            <li>Created user friendly interface for faculty</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Programming with Functions Teachers Assistant</h3>
+                        <p><i>BYU-Idaho Faculty</i></p>
+                        <ul>
+                            <li>Worked with students to develop python skills</li>
+                            <li>Worked with professor to develop course material</li>
+                            <li>Met with students to discuss personal progress and learning</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
